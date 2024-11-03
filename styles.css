@@ -1,0 +1,61 @@
+body {
+    background-color: #ffde59;
+    color: #0f0f11;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 150px; /* Adjust the size of your logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content {
+    margin: 20px 20px; /* Added horizontal margin for mobile */
+}
+
+h1 {
+    font-size: 2em; /* Responsive font size */
+}
+
+p {
+    font-size: 1em; /* Responsive font size */
+}
+
+.embed-link {
+    margin: 30px auto; /* Centered margin */
+    padding: 10px;
+    
+}
+
+footer {
+    position: relative; /* Changed from absolute to relative */
+    margin-top: 20px; /* Spacing above footer */
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Smaller font size on mobile */
+    }
+
+    p {
+        font-size: 0.9em; /* Smaller font size on mobile */
+    }
+
+    .embed-link iframe {
+        width: 100%; /* Make the iframe responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
